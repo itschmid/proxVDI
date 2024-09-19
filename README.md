@@ -24,8 +24,8 @@ Ein einfacher VDI-Client für Proxmox, entwickelt für Anwender, um bequem auf v
 
 - **Python 3**
 - **PyQt5**
-- **Spice-Client** (für Spice-Verbindungen)
 - **Proxmox VE** Umgebung
+- **Spice-Client** Der VDI Client benötigt den Remote Client virt-viewer, dieser ist bei vielen Linux Distributionen im Repository vorhanden.
 
 ## Installation
 
