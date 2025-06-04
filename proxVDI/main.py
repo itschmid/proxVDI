@@ -145,7 +145,7 @@ class VDIClient(VDIClientBase, VDIClientForm):
         action_map = {
             "Open": lambda: self.handle_vm_action(self.open_vm,vm_item),
             "Start": lambda: self.handle_vm_action(self.prox_controller.start_vm, vm_item, 5000),
-            "Shutdown": lambda: self.handle_vm_action(self.prox_controller.stop_vm, vm_item, 30000),
+            "Shutdown": lambda: self.handle_vm_action(self.prox_controller.shutdown_vm, vm_item, 30000),
             "Stop": lambda: self.handle_vm_action(self.prox_controller.stop_vm, vm_item, 30000),
             "Reboot": lambda: self.prox_controller.reboot_vm(vm_item),
             "Details for VM ID: {0}".format(vm_item.vmid): lambda: self.show_vm_details(vm_item)
