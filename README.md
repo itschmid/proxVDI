@@ -64,7 +64,7 @@ Ein einfacher VDI-Client für Proxmox, entwickelt für Anwender, um bequem auf v
     * Die VMs werden mit dem Logo des OS angezeigt.
     * Im Icon ist ein Punkt zusehen, dieser zeigt ob die VM läuft
     * Durch Doppelklick kannst du nun die Verbindung zu deiner VM starten
-    * Das System wählt automatisch den Verbindungstype SPICE, VNC oder SSH
+    * Das System wählt automatisch den Verbindungstyp SPICE, VNC oder SSH
    
 ## Hinweis
 
