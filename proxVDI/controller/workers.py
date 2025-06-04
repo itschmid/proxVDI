@@ -70,7 +70,7 @@ class Worker(QObject):
 
     def _get_vm_config_and_osinfo(self, vm_data):
         try:
-            config = self.proxmox.nodes(vm_data['node']).qemu(vm_data['vmid']).config().get()
+            config = self.proxmox.nodes(vm_data['node']).qemu(vm_data['vmid']).config.get()
         except Exception as e:
             logger.error(f"Error retrieving VM config for VMID {vm_data['vmid']}: {e}")
             config = {}
