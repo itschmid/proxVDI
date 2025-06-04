@@ -43,7 +43,7 @@ Ein einfacher VDI-Client für Proxmox, entwickelt für Anwender, um bequem auf v
 3. **Anwendung starten**:
 
    ```bash
-   python main.py
+   python run.py
    ```
    
 ## Erste Schritte
